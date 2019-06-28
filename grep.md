@@ -19,3 +19,8 @@ grep -R 'the text I want to search' --exclude-dir='folderToExclude'
 ```
 grep -nR 'the text I want to search' --exclude-dir='folderToExclude'
 ```
+##### 1.4 - Find a text recursively only in files having certain extensions
+
+```
+grep -nR 'the text I want to search' --include \*.rb
+```
